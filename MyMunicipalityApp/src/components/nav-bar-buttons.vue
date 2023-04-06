@@ -1,8 +1,9 @@
 <template>
   <div class="nav-bar__buttons">
     <template v-if="!isAuthenticated">
-      <SignupButton />
-      <LoginButton />
+      <LoginButton /> <br><br>
+
+      <SignupButton /> <br>
     </template>
     <template v-if="isAuthenticated">
       <LogoutButton />
@@ -24,3 +25,4 @@ export default {
   },
 };
 </script>
+

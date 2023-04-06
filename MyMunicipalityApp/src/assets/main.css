@@ -33,3 +33,44 @@ a,
     padding: 0 2rem;
   }
 }
+
+<!--
+Login button.
+-->
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+

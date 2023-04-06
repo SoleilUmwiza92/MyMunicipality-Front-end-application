@@ -1,5 +1,5 @@
 <template>
-  <div className="nav-bar__container">
+  <div class='my-class' className="nav-bar__container">
     <nav className="nav-bar">
       <NavBarButtons/>
     </nav>
@@ -13,3 +13,10 @@ export default {
   components: {NavBarButtons},
 };
 </script>
+
+<style scoped>
+.my-class {
+  background-color: blue;
+  color: white;
+}
+</style>
