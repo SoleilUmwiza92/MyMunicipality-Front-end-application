@@ -14,4 +14,4 @@ RUN npm install
 COPY . .
 
 # build app for production with minification
-RUN npm run build"-g", "daemon off;"]
+RUN npm run build
