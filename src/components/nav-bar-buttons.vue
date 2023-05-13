@@ -2,7 +2,6 @@
   <div class="nav-bar__buttons">
     <template v-if="!isAuthenticated">
       <LoginButton /> <br><br>
-
       <SignupButton /> <br>
     </template>
     <template v-if="isAuthenticated">
