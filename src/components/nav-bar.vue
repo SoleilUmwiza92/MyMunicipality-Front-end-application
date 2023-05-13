@@ -1,8 +1,8 @@
 <template>
-  <div class='my-class' className="nav-bar__container">
-    <nav className="nav-bar">
+  <div class="my-class">
+    <nav-bar>
       <NavBarButtons/>
-    </nav>
+    </nav-bar>
   </div>
 </template>
 

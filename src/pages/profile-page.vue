@@ -2,6 +2,9 @@
   <PageLayout>
     <div class="content-layout">
       <h1 id="page-title" class="content__title">Profile Page</h1>
+      <div class="green flex">
+        <p>Hello Soso</p>
+      </div>
       <div class="content__body">
         <p id="page-description">
           <span
@@ -52,3 +55,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.flex{
+  display: flex;
+}
+
+</style>
