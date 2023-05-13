@@ -27,7 +27,7 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Build and Push Docker Image
+      - name: Push Docker Image
         uses: mr-smithers-excellent/docker-build-push@v3
         with:
           image: soleilu/front-end-mymunicipality
