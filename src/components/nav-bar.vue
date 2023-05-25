@@ -1,8 +1,7 @@
 <template>
   <div class="my-class">
-    <nav-bar>
       <NavBarButtons/>
-    </nav-bar>
+
   </div>
 </template>
 

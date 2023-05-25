@@ -8,7 +8,7 @@ export default {
     handleLogin() {
       this.$auth0.loginWithRedirect({
         appState: {
-          target: "/profile",
+          target: "/home",
         },
       });
     },
